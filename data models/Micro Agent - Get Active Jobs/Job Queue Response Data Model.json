@@ -1,0 +1,60 @@
+{
+  "JobList": {
+    "Jobs": [
+      {
+        "JobId": "string",
+        "Status": {
+          "Value": 0,
+          "FormattedAsText": "string"
+        },
+        "ProcessId": "string",
+        "ProcessName": "string",
+        "AssociatedCaseId": "string",
+        "CustomData": "string",
+        "CreatorId": "string",
+        "CreatorName": "string",
+        "CreationDateTime": "2025-08-08T11:54:57.199Z",
+        "FinishDateTime": "2025-08-08T11:54:57.199Z",
+        "Priority": 0,
+        "SlaStatus": {
+          "Value": 0,
+          "FormattedAsText": "string",
+          "ImagePath": "string"
+        },
+        "JobState": "string",
+        "WorkTypeFields": [
+          {
+            "Name": "string",
+            "Value": "string",
+            "FieldType": 0,
+            "DisplayName": "string"
+          }
+        ],
+        "DueDateTime": "2025-08-08T11:54:57.199Z",
+        "StartDateTime": "2025-08-08T11:54:57.199Z",
+        "OwnerName": "string",
+        "Score": 0,
+        "Language": "string",
+        "Budget": 0,
+        "ExpectedCost": 0,
+        "Spend": 0,
+        "CaseReference": "string",
+        "StatePercentage": 0,
+        "SuspendReason": "string",
+        "OwnerProfilePictureName": "string",
+        "CreatorProfilePictureName": "string"
+      }
+    ],
+    "JobCount": 0
+  },
+  "QueryColumns": [
+    {}
+  ],
+  "WorkTypeFields": [
+    {
+      "Name": "string",
+      "DisplayName": "string"
+    }
+  ],
+  "TotalJobCount": 0
+}

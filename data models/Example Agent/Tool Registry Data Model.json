@@ -1,0 +1,32 @@
+{
+  "agent_processes": [
+    {
+      "intent": "mirco_agent",
+      "processID": "3ADD09793A0A4F3B8AD46E8A10E1C5E7",
+      "version": 1.0,
+      "name": "Micro Agent - Get Active Jobs",
+      "description": "Searches TotalAgility for active jobs and then analyses them & formats the repsonse based on the provided prompt."
+    },
+    {
+      "intent": "mirco_agent",
+      "processID": "23DD45A0703047DEA6C77B83EFCFEC6B",
+      "version": 1.0,
+      "name": "Micro Agent - Echo Response",
+      "description": "This agent is used for testing purposes. It simply echoes back the input prompt as the response."
+    },
+    {
+      "intent": "direct_reply",
+      "processID": "NA",
+      "version": 1.0,
+      "name": "Direct Reply",
+      "description": "Responds directly back to the user with the provided prompt, without any additional actions by agents."
+    },   
+    {
+      "intent": "error",
+      "processID": "NA",
+      "version": 1.0,
+      "name": "Error or Pass to Human",
+      "description": "Use this action if the input prompt can't  be understood, if the prompt requests something that is not clear how to resolve, or if the prompt requests something unethical or impossible."
+    }  
+  ]
+}
