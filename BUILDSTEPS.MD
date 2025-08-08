@@ -5,9 +5,12 @@
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/TungstenAutomationLabs/Example_Agent.git
+git remote add origin https://github.com/TungstenAutomationLabs/TotalAgilityExampleAgent
 git branch -M main
 git push -u origin main
 
 ## Push to Git
-https://github.com/TungstenAutomationLabs/Example_Agent
+git add .
+git commit -m "README.MD changes."
+git push
+

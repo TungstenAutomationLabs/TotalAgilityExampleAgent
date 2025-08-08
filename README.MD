@@ -12,6 +12,20 @@ The package was created using TotalAgility 8.1.0.
 ## Package Contents
 
 ### Categories
-This package creates a category called ```Example Agent```
+This package creates a category called ```Example Agent``` accessible to everyone. 
+
+### Global Variables
+
+
+### Forms
+
+
+### Processes
+
+
+### Integrations 
+
+
+
 
 
